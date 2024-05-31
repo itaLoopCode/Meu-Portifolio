@@ -1,3 +1,7 @@
+import './experience.scss'
+
+import { SectionProps } from '../SectionTitle/sectionTitle'
+
 export function Experience(){
     return(<>
         <div className="experience">

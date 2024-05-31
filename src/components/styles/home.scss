@@ -5,8 +5,8 @@
   grid-template-rows: reapet(3, auto);
   grid-template-areas:
     "header "
+    "buttons"
     "experience "
-    " buttons"
 }
 
 @media (min-width: 768px) {
