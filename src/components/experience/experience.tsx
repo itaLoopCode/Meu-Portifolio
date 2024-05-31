@@ -2,7 +2,7 @@ export function Experience(){
     return(<>
         <div className="experience">
         <h3>Experiências</h3>
-        <p>Texto</p>
+        <p>Em busca da primeira oportunidade no mercado</p>
       </div>
       <div className="experience-time"></div>
 
