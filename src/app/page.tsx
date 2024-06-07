@@ -1,5 +1,5 @@
 import { Header } from "@/components//header/header";
-import { Info } from "@/components/Languages/languages";
+import { Info } from "@/components/information/information";
 import { Experience } from "@/components/experience/experience";
 
 import '../components/styles/home.scss'
@@ -13,6 +13,10 @@ export default function Home() {
       <Info />
 
       <Experience />
+      
+      <div className="buttons">
+
+      </div>
 
     </ main>
   );

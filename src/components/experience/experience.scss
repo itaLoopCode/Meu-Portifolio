@@ -10,9 +10,11 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;
+    align-items: center;
   }
 
   @media (min-width: 768px) {
+    align-items: flex-start;
     p {
       color: var(--text-secundary);
       font-weight: 300;

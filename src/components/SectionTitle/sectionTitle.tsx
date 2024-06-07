@@ -1,8 +1,8 @@
-interface SectionProps{
+interface SectionTitle{
 text : string
 }
 
-export function SectionProps({text} : SectionProps){
+export function SectionTitle({text} : SectionTitle){
     return(
         <>
         <h3 className="section-title">{text}</h3>
