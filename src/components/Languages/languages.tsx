@@ -1,4 +1,4 @@
-export function Languages() {
+export function Info() {
   return (
     <>
       <div className="info">
@@ -9,6 +9,12 @@ export function Languages() {
           <br />
           
           <span>Pt-Br - Nativo</span>
+
+          <br />
+
+          <span>Francês - Básico</span>
+
+          
         </div>
         <h3>Educação</h3>
         <span>Engenharia de software - UFBRA</span>

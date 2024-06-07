@@ -1,12 +1,12 @@
 .container {
-    justify-content: center;
+  justify-content: center;
   padding: 40px 32px;
   display: grid;
   grid-template-rows: reapet(3, auto);
   grid-template-areas:
-    "header "
-    "buttons"
+    "header"
     "experience "
+    "buttons ";
 }
 
 @media (min-width: 768px) {
@@ -14,9 +14,9 @@
     padding: 70px 60px;
     height: 100vh;
     grid-template-rows: fit-content(100vh);
-    grid-template-columns:60% 30% ;
+    grid-template-columns: 60% 30%;
     align-items: center;
     justify-items: start;
-justify-content: space-between;
+    justify-content: space-between;
   }
 }
