@@ -2,11 +2,12 @@
   justify-content: center;
   padding: 40px 32px;
   display: grid;
-  grid-template-rows: reapet(3, auto);
+  grid-template-rows: reapet(4, auto);
   grid-template-areas:
     "header"
-    "experience "
-    "buttons ";
+    "buttons"
+    "experience"
+    "info ";
 }
 
 @media (min-width: 768px) {
@@ -18,5 +19,8 @@
     align-items: center;
     justify-items: start;
     justify-content: space-between;
+    grid-template-areas: 
+    "header info"
+    "experience buttons";
   }
 }
