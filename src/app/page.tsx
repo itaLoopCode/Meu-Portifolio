@@ -14,7 +14,7 @@ export default function Home() {
 
       <Experience />
       
-      <div className="buttons">
+      <div className="btn-prymary">
 
       </div>
 
