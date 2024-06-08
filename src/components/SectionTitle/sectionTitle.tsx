@@ -1,8 +1,10 @@
-interface SectionTitle{
+import "./sectionTitle/sectionTitle"
+
+interface SectionTitleProps{
 text : string
 }
 
-export function SectionTitle({text} : SectionTitle){
+export function SectionTitle({text} : SectionTitleProps){
     return(
         <>
         <h3 className="section-title">{text}</h3>
