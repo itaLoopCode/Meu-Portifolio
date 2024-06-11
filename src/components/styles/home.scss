@@ -1,9 +1,11 @@
 .container {
   padding: 40px 32px;
   display: grid;
+  justify-content: center;
   grid-template-rows: reapet(4, auto);
   grid-template-areas:
     "header"
+    "buttons"
     "experience"
     "info ";
 

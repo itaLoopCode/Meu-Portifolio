@@ -4,6 +4,10 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 12px 24px;
+  max-width: 500px;
+
+  grid-area: info;
 
   .languages-info {
     display: flex;
@@ -11,9 +15,13 @@
     gap: 24px;
     align-items: flex-start;
     width: 100%;
+    color: var(--text-secundary);
   }
 
   span {
     color: var(--text-secundary);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
   }
 }

@@ -1,6 +1,8 @@
 
-import '@/components/information/information'
+import '@/components/information/information.scss'
 import { SectionTitle } from '../SectionTitle/sectionTitle';
+import { EmailIcon } from '../icons/email-icon';
+import SocialBtns from '../social-btn/social-btns';
 
 export function Info() {
   return (
