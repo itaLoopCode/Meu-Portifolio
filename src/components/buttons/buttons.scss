@@ -1,8 +1,12 @@
 .buttons{
-  display: grid;
+  display: flex;
   grid-area: buttons;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  
 }
 
 .btn-prymary {
@@ -22,5 +26,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 18px;
 }

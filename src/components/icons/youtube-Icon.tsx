@@ -4,7 +4,7 @@ interface YoutubeIconProps {
 export default function YoutubeIcon(props : YoutubeIconProps){
     return(
     <>
-        <svg height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+        <svg height="30" width="30" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 461.001 461.001">
         <g>
             <path d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728

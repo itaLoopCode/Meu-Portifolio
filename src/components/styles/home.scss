@@ -1,6 +1,7 @@
 .container {
   padding: 40px 32px;
   display: grid;
+  margin:24px;
   justify-content: center;
   grid-template-rows: reapet(4, auto);
   grid-template-areas:
