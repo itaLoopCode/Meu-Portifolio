@@ -9,7 +9,7 @@ export function Buttons (){
         <>
       <div className="buttons">
       <SocialBtns />
-      <a className="btn-prymary" href="italo_j.s@hotmail.com">
+      <a className="btn-prymary" href="mailto:italo_j.s@hotmail.com">
          Contate-me
         <EmailIcon />
       </a>
