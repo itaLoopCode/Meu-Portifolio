@@ -18,5 +18,5 @@ export function Info() {
         <span>Engenharia de software - UFBRA</span>
       </div>
     </>
-  );
+  )
 }

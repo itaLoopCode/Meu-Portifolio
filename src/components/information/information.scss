@@ -1,18 +1,19 @@
-.information{
+.info {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .languages-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 24px;
+    align-items: flex-start;
     width: 100%;
+  }
 
-    .languages-info{
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    span{
+  span {
     color: var(--text-secundary);
-}
+  }
 }
