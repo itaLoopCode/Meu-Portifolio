@@ -15,7 +15,7 @@ export function Info() {
           
         </div>
         <SectionTitle text='Educação'/>
-        <span>Engenharia de software - UFBRA</span>
+        <span>Análise e Desenvolvimento de Sistemas - Instituto Federal de Educação e Ciência da Bahia</span>
       </div>
     </>
   )
