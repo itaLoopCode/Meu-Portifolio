@@ -3,7 +3,7 @@
 const isProd = process.env.NODE_ENV = 'production'
 
 const nextConfig = {
-    basePath: '/Meu-Portifolio',
+    basePath: isProd ? '/Meu-Portifolio': '',
 };
 
 export default nextConfig;
